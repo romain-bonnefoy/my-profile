@@ -1,0 +1,114 @@
+<style>
+
+       body {
+          background-color: #F3F3E0;
+          color: rgb(20, 20, 20);
+          font-family: Courier;
+       }
+
+       h1 {
+        color: #003161;
+        font-family: Courier;
+        font-weight: 700;
+        letter-spacing: 10px;
+        font-size: 35px;
+       }
+
+       /* Colors and fonts */
+       body {
+         background: rgb(230, 230, 230);
+         color: #091057;
+         font-family: Helvetica;
+         font-size: 20px;
+         font-family: 'Open Sans', sans-serif; /* Police sans-serif humaniste */
+       }
+
+        h2 {
+         color: #0D7C66;
+         font-family: Courier;
+         font-size: 24px;
+         font-weight: 500;
+       }
+
+        a {
+         font-family: 'Merriweather', serif; /* Police serif transitionnelle */
+         text-decoration: none;
+         font-weight: 600;
+         font-size: 19px;
+         color: #740938;
+       }
+        a:hover {
+         color: yellow;
+       }
+
+        h1, h2, h3, h4, h5, h6, p.serif {
+         font-family: 'Merriweather', serif; /* Police serif transitionnelle */
+
+
+        div {
+         background: white;
+         border: 2px solid black;
+         margin: 10px;
+        }
+
+
+        /* Custom design with class */
+
+        .container {
+          width: 700px;
+          margin: 40px auto;
+       }
+
+        @media (max-width: 760px) {
+        .container {
+          width: 600px;
+        }
+       }
+
+        @media (max-width: 500px) {
+        .container {
+          width: 400px;
+         }
+       }
+
+        .card-white{
+          background-color: white;
+          padding: 40px;
+          box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+          border-radius: 4px;
+          margin: 20px 0px;
+          text-align: center;
+       }
+        .img-circle {
+          border-radius: 50%;
+       }
+        .btn-blue{
+          background-color: #740938;
+          color: white;
+          padding: 15px 20px;
+          border-radius: 4px;
+       }
+        .btn-blue:hover {
+          background-color: black;
+          color: white;
+       }
+        .list-inline {
+          list-style: none;
+          padding-left: 0px;
+       }
+        .list-inline li {
+          display: inline;
+          padding: 10px;
+       }
+        .list-inline i {
+          font-size: 50px;
+          color: rgb( 230, 230, 230);
+       }
+        .list-inline i:hover {
+          color: black 
+       }
+        #introduction p {
+          margin-bottom: 40px;
+       }
+
+</style>
